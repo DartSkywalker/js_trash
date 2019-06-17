@@ -1,17 +1,26 @@
-'use strict';
+let num = 50;
 
-a = 5;
-console.log(a);
-
-// let answer = +prompt('enter');
-// console.log(typeof(answer));
-
-let incr = 10,
-    decr = 10;
-
+// if (num <49) {
+//     console.log('Not good');
+// } else if (num  > 100) {
+//     console.log('So much')
+// } else {
+//     console.log('Ok, good :)');
+// };
 
 
-let isChecked = true;
-let isClosed = false;
-
-console.log(isChecked === isClosed);
+switch (num) {
+    case num < 49:
+        console.log('So less');
+        break;
+    case num > 100:
+        console.log('So much')
+        break;
+    case num == 50:
+        console.log('Ok, good!')
+        break;
+    //default выполнится в любом случае
+    default:
+        console.log("smth goes wrong");
+        break;
+}
