@@ -1,26 +1,21 @@
+//Cycles
+
 let num = 50;
 
-// if (num <49) {
-//     console.log('Not good');
-// } else if (num  > 100) {
-//     console.log('So much')
-// } else {
-//     console.log('Ok, good :)');
-// };
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
 
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
 
-switch (num) {
-    case num < 49:
-        console.log('So less');
+for (let i = 1; i < 8; i++) {
+    if (i == 6) {
         break;
-    case num > 100:
-        console.log('So much')
-        break;
-    case num == 50:
-        console.log('Ok, good!')
-        break;
-    //default выполнится в любом случае
-    default:
-        console.log("smth goes wrong");
-        break;
+    }
+    console.log(i);
 }
