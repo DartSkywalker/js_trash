@@ -3,6 +3,8 @@ function learnRS(lang, callback) {
     callback();
 }
 
-learnRS("JS", function() {
-    console.log("CallBack test")
-});
+function done() {
+    console.log("CallBack test");
+}
+
+learnRS("JS", done);
